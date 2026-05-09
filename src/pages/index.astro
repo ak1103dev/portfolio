@@ -1,0 +1,316 @@
+---
+import "../styles/global.css";
+
+const technicalSkills = [
+  ["TypeScript", 5],
+  ["JavaScript", 5],
+  ["HTML / CSS", 4],
+  ["React", 4],
+  ["Node.js", 4],
+  ["Git", 4],
+  ["Docker", 3],
+  ["Kubernetes", 3],
+];
+
+const languageSkills = [
+  ["Thai (Native)", 5],
+  ["English", 3],
+];
+
+const experience = [
+  {
+    role: "Tech Lead",
+    company: "Witsawa Corporation",
+    period: "Sep 2017 - Present",
+    points: [
+      "Lead product engineering across web, mobile, backend, and deployment work.",
+      "Build frontend applications with React, TypeScript, Redux, Rematch, Vue.js, and Firebase.",
+      "Develop mobile applications with React Native and publish to Play Store and App Store.",
+      "Design and maintain backend APIs with Node.js, LoopBack, Apollo GraphQL, and related services.",
+      "Manage production services using Docker, Rancher, Kubernetes, and RKE2.",
+      "Guide delivery with Kanban, code review, technical direction, and reusable project foundations.",
+    ],
+  },
+  {
+    role: "Freelance Software Engineer",
+    company: "Independent",
+    period: "Jan 2017 - Sep 2017",
+    points: [
+      "Built frontend web applications with React for client projects.",
+      "Developed backend APIs using Node.js, Express.js, and MongoDB.",
+      "Integrated payment, shipping, and third-party services such as SiamPay and Shippop.",
+      "Worked directly with clients to turn product requirements into usable software.",
+    ],
+  },
+  {
+    role: "Fullstack Engineer Intern",
+    company: "TakeMeTour",
+    period: "Jun 2016 - Dec 2016",
+    points: [
+      "Developed Android application features with React Native.",
+      "Built web application features with React and Node.js.",
+      "Worked with a microservices architecture using the Spinal framework.",
+      "Processed operational log data with Apache Airflow.",
+    ],
+  },
+];
+
+const selectedWork = [
+  {
+    title: "Blog Posts from Medium",
+    category: "Technical Writing",
+    description:
+      "I write about software engineering, product development, technical lessons, and ideas I learn while building and maintaining real systems.",
+    stack: ["Medium", "Writing", "Knowledge Sharing"],
+  },
+  {
+    title: "Rancher v1 to Rancher v2 Migration",
+    category: "Infrastructure Modernization",
+    description:
+      "Moved deployment workflows from Rancher v1 to Rancher v2 with RKE2, improving Kubernetes operations, service management, and production deployment reliability.",
+    stack: ["Rancher v2", "RKE2", "Kubernetes"],
+  },
+];
+
+const interests = [
+  "Reading books",
+  "Watching movies",
+  "Listening to music",
+  "Writing blogs",
+  "Investment",
+];
+
+const socials = [
+  ["GitHub", "https://github.com/ak1103dev"],
+  ["Medium", "https://ak1103dev.medium.com"],
+  ["Facebook", "https://www.facebook.com/aphichan.chaiyutthasart"],
+  ["X", "https://x.com/ak1103dev"],
+];
+
+const renderMeter = (score: number) =>
+  Array.from({ length: 5 }, (_, index) => index < score);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Portfolio website for Apichan Chaiyutthasat, software engineer, technical leader, blogger, and investor." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apichan Chaiyutthasat | Software Engineer</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="site-shell topbar-inner">
+        <a class="brand" href="#top" aria-label="Apichan Chaiyutthasat home">
+          <span class="brand-mark">AK</span>
+          <span>ak1103dev</span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#experience">Experience</a>
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="site-shell hero" aria-label="Introduction">
+        <div>
+          <p class="eyebrow">Software Engineer</p>
+          <h1>Apichan Chaiyutthasat</h1>
+          <p class="hero-copy">
+            Software engineer building web, mobile, and backend products for
+            engineering teams. I work across TypeScript, React, React Native,
+            Node.js, and Kubernetes to ship reliable systems and improve
+            production workflows.
+          </p>
+          <div class="tech-tags" aria-label="Core technologies">
+            <span>TypeScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>React Native</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Contact me</a>
+            <a class="button" href="/cv.pdf" download="apichan-chaiyutthasat-cv.pdf">Download CV</a>
+          </div>
+        </div>
+
+        <aside class="hero-portrait" aria-label="Profile summary">
+          <div class="portrait-frame">
+            <img src="/profile.jpeg" alt="Apichan Chaiyutthasat" width="640" height="800" />
+          </div>
+          <div class="availability">
+            <div>
+              <strong>Based in Bangkok, Thailand</strong>
+              <p>Focused on reliable product engineering for technical teams.</p>
+            </div>
+            <span class="status-dot" aria-hidden="true"></span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="site-shell">
+          <div class="section-heading">
+            <h2>Experience</h2>
+            <p>
+              I have worked across product leadership, frontend systems, backend APIs,
+              mobile apps, deployment, and team delivery since 2016.
+            </p>
+          </div>
+
+          <div class="experience-list">
+            {experience.map((item) => (
+              <article class="experience-item">
+                <p class="period">{item.period}</p>
+                <div>
+                  <h3>{item.role}, {item.company}</h3>
+                  <ul>
+                    {item.points.map((point) => <li>{point}</li>)}
+                  </ul>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="site-shell">
+          <div class="section-heading">
+            <h2>Selected Work</h2>
+            <p>
+              A few representative examples of the systems, starter kits, and product
+              foundations I like to build. These are sample entries ready to replace
+              with live links, screenshots, and measurable outcomes.
+            </p>
+          </div>
+
+          <div class="work-grid">
+            {selectedWork.map((item) => (
+              <article class="work-card">
+                <p class="work-category">{item.category}</p>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <div class="work-stack" aria-label={`${item.title} technology stack`}>
+                  {item.stack.map((tech) => <span>{tech}</span>)}
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="site-shell">
+          <div class="section-heading">
+            <h2>Skills</h2>
+            <p>
+              A pragmatic stack centered on TypeScript, JavaScript, React, Node.js,
+              deployment workflows, and day-to-day engineering discipline.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <section class="skill-panel" aria-labelledby="technical-skills-title">
+              <h3 id="technical-skills-title">Technical Skills</h3>
+              <ul class="skill-list">
+                {technicalSkills.map(([name, score]) => (
+                  <li>
+                    <strong>{name}</strong>
+                    <span class="meter" aria-label={`${name} skill level ${score} of 5`}>
+                      {renderMeter(score as number).map((filled) => (
+                        <span class:list={{ "is-filled": filled }}></span>
+                      ))}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            <section class="skill-panel" aria-labelledby="language-skills-title">
+              <h3 id="language-skills-title">Language Skills</h3>
+              <ul class="skill-list">
+                {languageSkills.map(([name, score]) => (
+                  <li>
+                    <strong>{name}</strong>
+                    <span class="meter" aria-label={`${name} skill level ${score} of 5`}>
+                      {renderMeter(score as number).map((filled) => (
+                        <span class:list={{ "is-filled": filled }}></span>
+                      ))}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="site-shell">
+          <div class="section-heading">
+            <h2>Education</h2>
+            <p>Computer engineering foundation with practical product engineering experience.</p>
+          </div>
+
+          <article class="education-panel">
+            <div>
+              <h3>Bachelor's Degree in Computer Engineering</h3>
+              <p>Kasetsart University, Bangkok, Thailand</p>
+            </div>
+            <strong class="period">2013 - 2017</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="site-shell">
+          <div class="section-heading">
+            <h2>Interests</h2>
+            <p>
+              I keep my engineering practice connected to reading, writing, investing,
+              and exploring ideas outside code.
+            </p>
+          </div>
+
+          <div class="interest-panel">
+            <h3>Outside Work</h3>
+            <div class="interest-list">
+              {interests.map((interest) => <span>{interest}</span>)}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-band" id="contact">
+        <div class="site-shell contact-inner">
+          <div>
+            <h2>Let's build useful software.</h2>
+            <p>
+              Email me at <a class="email-link" href="mailto:apichan.ch@gmail.com">apichan.ch@gmail.com</a>
+              or reach me through my public profiles.
+            </p>
+          </div>
+          <div class="socials" aria-label="Social links">
+            {socials.map(([label, href]) => (
+              <a href={href} target="_blank" rel="noreferrer">{label}</a>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="site-shell">
+        © 2026 Apichan Chaiyutthasat
+      </div>
+    </footer>
+  </body>
+</html>

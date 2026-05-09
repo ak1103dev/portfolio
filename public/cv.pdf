@@ -1,0 +1,243 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 6468 >>
+stream
+1.000 1.000 1.000 rg
+1.000 1.000 1.000 RG
+0 0 612 792 re f
+0.067 0.094 0.153 rg
+0.067 0.094 0.153 RG
+BT /F2 24 Tf 1 0 0 1 54 738 Tm (Apichan Chaiyutthasat) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 13 Tf 1 0 0 1 54 714 Tm (Software Engineer) Tj ET
+0.294 0.333 0.388 rg
+0.294 0.333 0.388 RG
+BT /F1 9.5 Tf 1 0 0 1 54 696 Tm (Bangkok, Thailand | apichan.ch@gmail.com | github.com/ak1103dev | ak1103dev.medium.com | x.com/ak1103dev) Tj ET
+0.812 0.839 0.875 rg
+0.812 0.839 0.875 RG
+0.9 w 54 670.5 m 558 670.5 l S
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F2 9 Tf 1 0 0 1 54 640.5 Tm (PROFILE) Tj ET
+0.847 0.867 0.902 rg
+0.847 0.867 0.902 RG
+0.7 w 54 630.5 m 558 630.5 l S
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 10.5 Tf 1 0 0 1 54 614.5 Tm (Software engineer building web, mobile, and backend products for engineering teams. Experienced) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 10.5 Tf 1 0 0 1 54 599.5 Tm (across TypeScript, React, React Native, Node.js, Kubernetes, and production deployment) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 10.5 Tf 1 0 0 1 54 584.5 Tm (workflows.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F2 9 Tf 1 0 0 1 54 557.5 Tm (TECHNICAL SKILLS) Tj ET
+0.847 0.867 0.902 rg
+0.847 0.867 0.902 RG
+0.7 w 54 547.5 m 558 547.5 l S
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.8 Tf 1 0 0 1 54 531.5 Tm (TypeScript | JavaScript | React | React Native | Node.js | HTML / CSS | Docker | Kubernetes | Rancher) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.8 Tf 1 0 0 1 54 517.5 Tm (| RKE2 | GraphQL | Firebase | Git) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F2 9 Tf 1 0 0 1 54 493.5 Tm (EXPERIENCE) Tj ET
+0.847 0.867 0.902 rg
+0.847 0.867 0.902 RG
+0.7 w 54 483.5 m 558 483.5 l S
+0.125 0.157 0.200 rg
+0.125 0.157 0.200 RG
+BT /F2 11.5 Tf 1 0 0 1 54 467.5 Tm (Tech Lead, Witsawa Corporation) Tj ET
+0.400 0.439 0.522 rg
+0.400 0.439 0.522 RG
+BT /F1 9.5 Tf 1 0 0 1 472.5 467.5 Tm (Sep 2017 - Present) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 449.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 449.5 Tm (Lead product engineering across web, mobile, backend, and deployment work.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 434.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 434.5 Tm (Build frontend applications with React, TypeScript, Redux, Rematch, Vue.js, and Firebase.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 419.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 419.5 Tm (Develop mobile applications with React Native and publish to Play Store and App Store.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 404.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 404.5 Tm (Design and maintain backend APIs with Node.js, LoopBack, Apollo GraphQL, and related services.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 389.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 389.5 Tm (Manage production services using Docker, Rancher, Kubernetes, and RKE2.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 374.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 374.5 Tm (Guide delivery with Kanban, code review, technical direction, and reusable project foundations.) Tj ET
+0.125 0.157 0.200 rg
+0.125 0.157 0.200 RG
+BT /F2 11.5 Tf 1 0 0 1 54 351.5 Tm (Freelance Software Engineer, Independent) Tj ET
+0.400 0.439 0.522 rg
+0.400 0.439 0.522 RG
+BT /F1 9.5 Tf 1 0 0 1 467.75 351.5 Tm (Jan 2017 - Sep 2017) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 333.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 333.5 Tm (Built frontend web applications with React for client projects.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 318.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 318.5 Tm (Developed backend APIs using Node.js, Express.js, and MongoDB.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 303.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 303.5 Tm (Integrated payment, shipping, and third-party services such as SiamPay and Shippop.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 288.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 288.5 Tm (Worked directly with clients to turn product requirements into usable software.) Tj ET
+0.125 0.157 0.200 rg
+0.125 0.157 0.200 RG
+BT /F2 11.5 Tf 1 0 0 1 54 265.5 Tm (Fullstack Engineer Intern, TakeMeTour) Tj ET
+0.400 0.439 0.522 rg
+0.400 0.439 0.522 RG
+BT /F1 9.5 Tf 1 0 0 1 467.75 265.5 Tm (Jun 2016 - Dec 2016) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 247.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 247.5 Tm (Developed Android application features with React Native.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 232.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 232.5 Tm (Built web application features with React and Node.js.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 217.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 217.5 Tm (Worked with a microservices architecture using the Spinal framework.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F1 9.5 Tf 1 0 0 1 64 202.5 Tm (•) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 78 202.5 Tm (Processed operational log data with Apache Airflow.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F2 9 Tf 1 0 0 1 54 171.5 Tm (SELECTED WORK) Tj ET
+0.847 0.867 0.902 rg
+0.847 0.867 0.902 RG
+0.7 w 54 161.5 m 558 161.5 l S
+0.125 0.157 0.200 rg
+0.125 0.157 0.200 RG
+BT /F2 11 Tf 1 0 0 1 54 145.5 Tm (Blog Posts from Medium) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 54 129.5 Tm (Technical writing about software engineering, product development, and lessons learned while building real) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 54 116.5 Tm (systems.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1224 >>
+stream
+0.125 0.157 0.200 rg
+0.125 0.157 0.200 RG
+BT /F2 11 Tf 1 0 0 1 54 738 Tm (Rancher v1 to Rancher v2 Migration) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 54 722 Tm (Moved deployment workflows from Rancher v1 to Rancher v2 with RKE2, improving Kubernetes operations and) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 54 709 Tm (production deployment reliability.) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F2 9 Tf 1 0 0 1 54 684 Tm (EDUCATION) Tj ET
+0.847 0.867 0.902 rg
+0.847 0.867 0.902 RG
+0.7 w 54 674 m 558 674 l S
+0.125 0.157 0.200 rg
+0.125 0.157 0.200 RG
+BT /F2 11 Tf 1 0 0 1 54 658 Tm (Bachelor's Degree in Computer Engineering) Tj ET
+0.400 0.439 0.522 rg
+0.400 0.439 0.522 RG
+BT /F1 9.5 Tf 1 0 0 1 505.75 658 Tm (2013 - 2017) Tj ET
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.5 Tf 1 0 0 1 54 643 Tm (Kasetsart University, Bangkok, Thailand) Tj ET
+0.086 0.475 0.420 rg
+0.086 0.475 0.420 RG
+BT /F2 9 Tf 1 0 0 1 54 613 Tm (LANGUAGES) Tj ET
+0.847 0.867 0.902 rg
+0.847 0.867 0.902 RG
+0.7 w 54 603 m 558 603 l S
+0.224 0.267 0.329 rg
+0.224 0.267 0.329 RG
+BT /F1 9.8 Tf 1 0 0 1 54 587 Tm (Thai \(Native\) | English \(Professional working proficiency\)) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000006922 00000 n 
+0000007058 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+8334
+%%EOF
