@@ -89,6 +89,10 @@ const socials = [
 
 const renderMeter = (score: number) =>
   Array.from({ length: 5 }, (_, index) => index < score);
+
+const baseUrl = import.meta.env.BASE_URL;
+const assetPath = (path: string) =>
+  `${baseUrl}${baseUrl.endsWith("/") ? "" : "/"}${path}`;
 ---
 
 <!doctype html>
@@ -137,13 +141,13 @@ const renderMeter = (score: number) =>
           </div>
           <div class="hero-actions">
             <a class="button primary" href="#contact">Contact me</a>
-            <a class="button" href="/cv.pdf" download="apichan-chaiyutthasat-cv.pdf">Download CV</a>
+            <a class="button" href={assetPath("cv.pdf")} download="apichan-chaiyutthasat-cv.pdf">Download CV</a>
           </div>
         </div>
 
         <aside class="hero-portrait" aria-label="Profile summary">
           <div class="portrait-frame">
-            <img src="/profile.jpeg" alt="Apichan Chaiyutthasat" width="640" height="800" />
+            <img src={assetPath("profile.jpeg")} alt="Apichan Chaiyutthasat" width="640" height="800" />
           </div>
           <div class="availability">
             <div>
