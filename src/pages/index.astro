@@ -93,15 +93,64 @@ const renderMeter = (score: number) =>
 const baseUrl = import.meta.env.BASE_URL;
 const assetPath = (path: string) =>
   `${baseUrl}${baseUrl.endsWith("/") ? "" : "/"}${path}`;
+
+const siteUrl = Astro.site ?? new URL("https://ak1103.dev");
+const pageTitle = "Apichan Chaiyutthasat | Software Engineer";
+const pageDescription =
+  "Portfolio of Apichan Chaiyutthasat, a Bangkok-based software engineer building web, mobile, backend, and Kubernetes products.";
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
+const profileImageUrl = new URL(assetPath("profile-sharp.jpeg"), siteUrl).toString();
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Apichan Chaiyutthasat",
+  alternateName: "ak1103dev",
+  jobTitle: "Software Engineer",
+  url: canonicalUrl,
+  image: profileImageUrl,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Bangkok",
+    addressCountry: "TH",
+  },
+  knowsAbout: [
+    "TypeScript",
+    "React",
+    "React Native",
+    "Node.js",
+    "Docker",
+    "Kubernetes",
+  ],
+  sameAs: socials.map(([, url]) => url),
+};
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Portfolio website for Apichan Chaiyutthasat, software engineer, technical leader, blogger, and investor." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apichan Chaiyutthasat | Software Engineer</title>
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <meta name="author" content="Apichan Chaiyutthasat" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ak1103dev" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={profileImageUrl} />
+    <meta property="og:image:alt" content="Portrait of Apichan Chaiyutthasat" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDescription} />
+    <meta name="twitter:image" content={profileImageUrl} />
+    <meta name="twitter:creator" content="@ak1103dev" />
+
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(structuredData)} />
   </head>
   <body>
     <header class="topbar">
