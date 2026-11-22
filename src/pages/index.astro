@@ -58,6 +58,7 @@ const experience = [
 const selectedWork = [
   {
     title: "Blog Posts from Medium",
+    url: "https://ak1103dev.medium.com/",
     category: "Technical Writing",
     description:
       "I write about software engineering, product development, technical lessons, and ideas I learn while building and maintaining real systems.",
@@ -102,26 +103,36 @@ const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const profileImageUrl = new URL(assetPath("profile-sharp.jpeg"), siteUrl).toString();
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Apichan Chaiyutthasat",
-  alternateName: "ak1103dev",
-  jobTitle: "Software Engineer",
+  "@type": "ProfilePage",
+  "@id": `${canonicalUrl}#profile`,
+  name: pageTitle,
+  description: pageDescription,
   url: canonicalUrl,
-  image: profileImageUrl,
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Bangkok",
-    addressCountry: "TH",
+  mainEntity: {
+    "@type": "Person",
+    "@id": `${canonicalUrl}#person`,
+    name: "Apichan Chaiyutthasat",
+    alternateName: "ak1103dev",
+    description:
+      "Software engineer based in Bangkok, Thailand, building web, mobile, and backend products with TypeScript, React, React Native, Node.js, and Kubernetes.",
+    jobTitle: "Software Engineer",
+    url: canonicalUrl,
+    image: profileImageUrl,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Bangkok",
+      addressCountry: "TH",
+    },
+    knowsAbout: [
+      "TypeScript",
+      "React",
+      "React Native",
+      "Node.js",
+      "Docker",
+      "Kubernetes",
+    ],
+    sameAs: socials.map(([, url]) => url),
   },
-  knowsAbout: [
-    "TypeScript",
-    "React",
-    "React Native",
-    "Node.js",
-    "Docker",
-    "Kubernetes",
-  ],
-  sameAs: socials.map(([, url]) => url),
 };
 ---
 
@@ -238,18 +249,15 @@ const structuredData = {
         <div class="site-shell">
           <div class="section-heading">
             <h2>Selected Work</h2>
-            <p>
-              A few representative examples of the systems, starter kits, and product
-              foundations I like to build. These are sample entries ready to replace
-              with live links, screenshots, and measurable outcomes.
-            </p>
           </div>
 
           <div class="work-grid">
             {selectedWork.map((item) => (
               <article class="work-card">
                 <p class="work-category">{item.category}</p>
-                <h3>{item.title}</h3>
+                <h3>
+                  {item.url ? <a href={item.url}>{item.title}</a> : item.title}
+                </h3>
                 <p>{item.description}</p>
                 <div class="work-stack" aria-label={`${item.title} technology stack`}>
                   {item.stack.map((tech) => <span>{tech}</span>)}
