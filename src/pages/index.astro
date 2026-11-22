@@ -247,7 +247,7 @@ const structuredData = {
 
       <section class="section" id="work">
         <div class="site-shell">
-          <div class="section-heading">
+          <div class="section-heading work-heading">
             <h2>Selected Work</h2>
           </div>
 
@@ -262,6 +262,11 @@ const structuredData = {
                 <div class="work-stack" aria-label={`${item.title} technology stack`}>
                   {item.stack.map((tech) => <span>{tech}</span>)}
                 </div>
+                {item.url && (
+                  <a class="work-link" href={item.url}>
+                    Read on Medium <span aria-hidden="true">↗</span>
+                  </a>
+                )}
               </article>
             ))}
           </div>
